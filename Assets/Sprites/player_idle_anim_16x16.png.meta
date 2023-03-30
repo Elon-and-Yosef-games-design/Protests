@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -823,29 +823,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_idle_anim_16x16_0: 1564010689
-      player_idle_anim_16x16_1: 1996228658
-      player_idle_anim_16x16_10: 964544837
-      player_idle_anim_16x16_11: -963485505
-      player_idle_anim_16x16_12: -1781426199
-      player_idle_anim_16x16_13: 1618364949
-      player_idle_anim_16x16_14: -1237720433
-      player_idle_anim_16x16_15: -303425848
-      player_idle_anim_16x16_16: 2415190
-      player_idle_anim_16x16_17: -1928787953
-      player_idle_anim_16x16_18: -1356993001
-      player_idle_anim_16x16_19: 483138159
-      player_idle_anim_16x16_2: -1871961386
-      player_idle_anim_16x16_20: 48892826
-      player_idle_anim_16x16_21: -657551812
-      player_idle_anim_16x16_22: 675891793
-      player_idle_anim_16x16_23: -905207114
-      player_idle_anim_16x16_3: -1727256136
-      player_idle_anim_16x16_4: -176601265
       player_idle_anim_16x16_5: -954090738
-      player_idle_anim_16x16_6: -91045510
+      player_idle_anim_16x16_21: -657551812
+      player_idle_anim_16x16_15: -303425848
+      player_idle_anim_16x16_2: -1871961386
+      player_idle_anim_16x16_12: -1781426199
+      player_idle_anim_16x16_20: 48892826
+      player_idle_anim_16x16_19: 483138159
       player_idle_anim_16x16_7: 1322083345
+      player_idle_anim_16x16_17: -1928787953
+      player_idle_anim_16x16_10: 964544837
+      player_idle_anim_16x16_3: -1727256136
+      player_idle_anim_16x16_18: -1356993001
+      player_idle_anim_16x16_16: 2415190
+      player_idle_anim_16x16_4: -176601265
+      player_idle_anim_16x16_11: -963485505
       player_idle_anim_16x16_8: 498464813
+      player_idle_anim_16x16_22: 675891793
+      player_idle_anim_16x16_13: 1618364949
+      player_idle_anim_16x16_1: 1996228658
+      player_idle_anim_16x16_14: -1237720433
+      player_idle_anim_16x16_6: -91045510
+      player_idle_anim_16x16_0: 1564010689
+      player_idle_anim_16x16_23: -905207114
       player_idle_anim_16x16_9: 285536214
   spritePackingTag: 
   pSDRemoveMatte: 0
