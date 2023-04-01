@@ -30,7 +30,7 @@ public class spawner : MonoBehaviour
             float timeBetweenSpawnsInSeconds = Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
             float velocity_random = Random.Range(velocityMin, velocityMin);
             yield return new WaitForSeconds(timeBetweenSpawnsInSeconds);       // co-routines
-   
+ 
             GameObject newObject = Instantiate(object_to_spawn.gameObject, transform.position, Quaternion.identity);
             newObject.GetComponent<mover>().SetVelocity(new Vector3(velocity_random,0,0));
 
