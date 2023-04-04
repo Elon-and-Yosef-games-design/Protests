@@ -8,7 +8,7 @@ public class On_win_collision : MonoBehaviour
     [SerializeField]
     string win_tag;
     [SerializeField]
-    string win_name_screen;
+    GameObject screen_handler;
 
     [SerializeField]
     float wait_time = 0.5f;
@@ -17,7 +17,7 @@ public class On_win_collision : MonoBehaviour
     IEnumerator wait_for_a_momnet()
     {
         yield return new WaitForSeconds(wait_time);
-        SceneManager.LoadScene(win_name_screen);
+        screen_handler.GetComponent<screen_handler>().load_win_screen();
 
     }
     private void OnTriggerEnter2D(Collider2D collision)

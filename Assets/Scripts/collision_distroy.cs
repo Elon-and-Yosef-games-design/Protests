@@ -33,9 +33,15 @@ public class collision_distroy : MonoBehaviour
             life--;
             if (life > 0)
             {
-                gameObject.GetComponent<points_handler>().life_to_text(life);
-                transform.position = start_position;
-                StartCoroutine(respawn());
+                try
+                {
+                    gameObject.GetComponent<points_handler>().life_to_text(life);
+                    transform.position = start_position;
+                     StartCoroutine(respawn());
+                }
+                catch
+                { }
+                
             }
             else
             {
@@ -45,7 +51,7 @@ public class collision_distroy : MonoBehaviour
         }
         if (other.tag == "boundery" && enabled)
         {
-            Destroy(other.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

@@ -22,13 +22,14 @@ public class opening_scene : MonoBehaviour
         visited_corutin = 1;
         arive_flag = 1;
         yield return new WaitForSeconds(time_to_wait);
-        player.active = true;
+        player.SetActive(true);
         arive_flag = 0;
     }
     // Start is called before the first frame update
     void Start()
     {
-        player.active = false;
+        player.SetActive(false);
+
     }
 
     // Update is called once per frame
