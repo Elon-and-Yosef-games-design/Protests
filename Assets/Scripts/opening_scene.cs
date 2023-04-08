@@ -40,10 +40,10 @@ public class opening_scene : MonoBehaviour
         {
             arive_flag = 0;
         }
-        else if(visited_corutin == 0)
+        else if (visited_corutin == 0)
             StartCoroutine(Rutin());
 
-        if(arive_flag == 0)
+        if (arive_flag == 0)
         {
             transform.position += new Vector3(-1 * velocity * Time.deltaTime, 0);
         }

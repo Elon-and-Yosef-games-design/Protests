@@ -22,8 +22,7 @@ public class On_win_collision : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
-        if(collision.tag == win_tag && enabled)
+        if( collision.tag == win_tag && enabled )
         {
             StartCoroutine(wait_for_a_momnet());
         }

@@ -12,7 +12,7 @@ public class collision_distroy : MonoBehaviour
     [SerializeField]
     public int life = 3;
     [SerializeField]
-     float respawn_time = 1f;
+    float respawn_time = 1f;
     [SerializeField]
     Vector3 start_position = new Vector3();
     [SerializeField]
@@ -37,18 +37,15 @@ public class collision_distroy : MonoBehaviour
                 {
                     gameObject.GetComponent<points_handler>().life_to_text(life);
                     transform.position = start_position;
-                     StartCoroutine(respawn());
+                    StartCoroutine(respawn());
                 }
                 catch
                 { }
-                
             }
             else
             {
                 SceneManager.LoadScene(lose_screen_name);
             }
-      
         }
-
     }
 }
