@@ -49,9 +49,6 @@ public class collision_distroy : MonoBehaviour
             }
       
         }
-        if (other.tag == "boundery" && enabled)
-        {
-            Destroy(this.gameObject);
-        }
+
     }
 }

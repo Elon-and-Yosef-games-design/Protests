@@ -642,19 +642,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8755946297810129908, guid: a72bdb6810c597b468abe4ebb7484191, type: 3}
   m_PrefabInstance: {fileID: 8755946298061601526}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &577466335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441874149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6434771f5071a2d499a2d14e11cc5e95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  life_points_text: {fileID: 1303512447}
 --- !u!1001 &578967030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029,11 +1016,11 @@ RectTransform:
   m_Father: {fileID: 840744987}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -338, y: 185.97}
-  m_SizeDelta: {x: 108.5364, y: 67.5018}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 14, y: -12}
+  m_SizeDelta: {x: 108.53638, y: 67.50183}
+  m_Pivot: {x: 0, y: 1}
 --- !u!1 &985023587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.6, y: 0}
+  m_AnchoredPosition: {x: 5.600006, y: 0}
   m_SizeDelta: {x: 21.934, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985023589
@@ -1265,7 +1252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -14.218849, y: 0}
+  m_AnchoredPosition: {x: -14.218872, y: 0}
   m_SizeDelta: {x: 28.437698, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303512447
@@ -13750,6 +13737,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 471731992439171732, guid: a72bdb6810c597b468abe4ebb7484191, type: 3}
+      propertyPath: life_points_text
+      value: 
+      objectReference: {fileID: 1303512447}
+    - target: {fileID: 633835927861147415, guid: a72bdb6810c597b468abe4ebb7484191, type: 3}
+      propertyPath: life_points_text
+      value: 
+      objectReference: {fileID: 1303512447}
     - target: {fileID: 8755946297810129907, guid: a72bdb6810c597b468abe4ebb7484191, type: 3}
       propertyPath: m_RootOrder
       value: 6

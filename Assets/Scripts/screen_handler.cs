@@ -16,7 +16,7 @@ public class screen_handler : MonoBehaviour
     string[] levels;
 
     [SerializeField]
-    int last_level = 0;
+    static int last_level = 0;
 
 
     public void move_to_main()
@@ -44,8 +44,12 @@ public class screen_handler : MonoBehaviour
         last_level++;
         if(last_level < levels.Length)
         {
-            DontDestroyOnLoad(this);
+            //DontDestroyOnLoad(this);
             SceneManager.LoadScene(levels[last_level]);
+        }
+        else
+        {
+            move_to_main();
         }
     }
     // Start is called before the first frame update

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8755946297810129918}
   - component: {fileID: 8755946297810129919}
   - component: {fileID: 8755946297810129917}
-  - component: {fileID: 8755946297810129916}
+  - component: {fileID: 471731992439171732}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -236,6 +236,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: enemy
+  life: 3
+  respawn_time: 1
+  start_position: {x: 0, y: 0, z: 0}
+  lose_screen_name: 
 --- !u!114 &8755946297810129919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,7 +266,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1944ee84e030d04cbe75fbdcc05ab94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8755946297810129916
+  win_tag: 
+  screen_handler: {fileID: 0}
+  wait_time: 0.5
+--- !u!114 &471731992439171732
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,9 +278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8755946297810129908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85c3b0cf8d17aae4fbd3cf55b61a7e1c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6434771f5071a2d499a2d14e11cc5e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 3
-  start_position: {x: 1.62, y: -4.77, z: 0}
-  player_prefab: {fileID: 8755946297810129908}
+  life_points_text: {fileID: 0}
